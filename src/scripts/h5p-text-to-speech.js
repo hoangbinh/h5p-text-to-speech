@@ -13,10 +13,8 @@ export default class TextToSpeech extends H5P.EventDispatcher {
     const AUDIO_BUTTON = 'h5p-texttospeech-button';
     const PLAY_BUTTON = 'h5p-texttospeech-play';
 
-    this.element = $('<button/>', {
-      'class': AUDIO_BUTTON + " " + PLAY_BUTTON,
-      'aria-label': this.params.playAudio
-    });
+    this.element = document.createElement('button');
+    this.element.classList.add(AUDIO_BUTTON, PLAY_BUTTON);
 
     /**
      * Attach library to wrapper.
