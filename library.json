@@ -1,0 +1,24 @@
+{
+  "title": "Text to speech",
+  "description": "A simple library that converts text to audio",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Binh Hoang",
+  "license": "MIT",
+  "machineName": "H5P.TextToSpeech",
+  "embedTypes": [
+    "iframe"
+  ],
+  "preloadedJs": [
+    {
+      "path": "dist/h5p-text-to-speech.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "dist/h5p-text-to-speech.css"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Text",
+    "importance": "high",
+    "name": "textField",
+    "type": "text",
+    "widget": "textarea",
+    "placeholder": "Text",
+    "default": "Hello word",
+    "description": "Text that will be converted to audio"
+  }
+]
