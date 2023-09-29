@@ -3,11 +3,15 @@
   width: 100%;
 }
 
+.h5p-course-presentation .h5p-element.h5p-texttospeech-wrapper {
+  overflow: visible !important;
+}
+
 .h5p-texttospeech-inner .h5p-texttospeech-button {
   font-family: 'H5PFontAwesome4';
 
   display: block;
-  padding: 0.3em;
+  padding: 0.3em 0.4em;
 
   font-size: 0.8em;
   border: 0.1em solid #fff;
@@ -29,6 +33,36 @@
   cursor: pointer;
 }
 
-.h5p-texttospeech-inner .h5p-texttospeech-play:before {
+.h5p-texttospeech-inner .h5p-texttospeech-speak:before {
   content: "\f028";
+}
+
+.h5p-texttospeech-inner .h5p-texttospeech-play {
+  padding: 0.3em 0.45em;
+
+  background: rgb(38,170,68); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(38,170,68,1) 0%, rgba(0,112,10,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(38,170,68,1)), color-stop(100%,rgba(0,112,10,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(38,170,68,1) 0%,rgba(0,112,10,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(38,170,68,1) 0%,rgba(0,112,10,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(38,170,68,1) 0%,rgba(0,112,10,1) 100%); /* IE10+ */
+}
+
+.h5p-texttospeech-inner .h5p-texttospeech-play:before {
+  content: "\f04b";
+}
+
+.h5p-texttospeech-inner .h5p-texttospeech-error {
+  padding: 0.3em 0.65em;
+
+  background: rgb(170, 38, 38); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(170, 38, 38,1) 0%, rgb(112, 0, 0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(170, 38, 38,1)), color-stop(100%,rgba(112, 0, 0,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(170, 38, 38,1) 0%,rgba(112, 0, 0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(170, 38, 38,1) 0%,rgba(112, 0, 0,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(170, 38, 38,1) 0%,rgba(112, 0, 0,1) 100%); /* IE10+ */
+}
+
+.h5p-texttospeech-inner .h5p-texttospeech-error:before {
+  content: "\f12a";
 }

@@ -2,11 +2,51 @@
   {
     "label": "Text",
     "importance": "high",
-    "name": "textField",
+    "name": "text",
     "type": "text",
     "widget": "textarea",
     "placeholder": "Text",
     "default": "Hello word",
     "description": "Text that will be converted to audio"
+  },
+  {
+    "label": "Language",
+    "importance": "high",
+    "name": "language",
+    "type": "text",
+    "widget": "text",
+    "placeholder": "",
+    "default": "en-us",
+    "description": "Language code"
+  },
+  {
+    "label": "Volume",
+    "importance": "high",
+    "name": "volume",
+    "type": "number",
+    "widget": "text",
+    "placeholder": "",
+    "default": "1",
+    "description": "Voice volume value, in range between 0 (lowest) and 1 (highest)"
+  },
+  {
+    "label": "Pitch",
+    "importance": "high",
+    "name": "pitch",
+    "type": "number",
+    "widget": "text",
+    "placeholder": "",
+    "default": "1",
+    "description": "Voice pitch value, in range between 0 (lowest) and 2 (highest)"
+  },
+  {
+    "label": "Rate",
+    "importance": "high",
+    "name": "rate",
+    "type": "number",
+    "widget": "text",
+    "placeholder": "",
+    "default": "1",
+    "description": "Voice rate value, in range between 0.1 (lowest) and 10 (highest)"
   }
 ]
